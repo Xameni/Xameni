@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+.header-container{
+  background-image: url("https://cdn.pixabay.com/photo/2017/04/22/10/15/sport-2250970_960_720.jpg");
+  background-size: cover;
+  height: 725px;
+}
+.extra-container {
+  display: flex;
+}
+.one-container h2, h3{
+  font-size: 13px;
+}
+.one-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 40px;
+  align-items: center;
+
+}
+.extra-container h3{
+  padding-right: 50px;
+  align-items: center;
+}
+.nav-two-container{
+  background-color: white;
+  height: 50px;
+}
+.nav-container h2{
+  margin-left: 40px
+}
+.logo-container a img{
+  margin-left: 30px
+}
+.nav-two-container{
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.menu-container ul{
+  display: flex;
+}
+.menu-container a{
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+}
+.menu-container li{
+  padding-right: 50px;
+
+}
+.message-container ul{
+  display: flex;
+  padding-right: 50px;
+
+
+}
+.message-container a{
+  padding-right: 20px;
+}
+.heading-container{
+  color: white;
+  margin-left:100px;
+  margin-top: 160px;
+}
+.heading-container p{
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+.heading-container h3{
+  margin-top: 70px;
+}
+.heading-container h1{
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+}
+.color{
+  color: red;
+}
+.first-page-container{
+  display: flex;
+  justify-content: center;
+}
+.sport{
+  color: darkred;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.men-container h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+.men-container p{
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+.men-container{
+  margin-top: 340px;
+  padding-left: 100px;
+}
+.list-container ul{
+  padding-right: 70px;
+}
+.list-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.list-container li{
+  padding-top: 20px;
+}
+
+.image-container{
+  margin-top: 50px;
+}
+.view-container{
+  margin-top: 90px;
+}
+.second-page-container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+.cloth-container{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+.cloth-container ul{
+  padding-right: 100px;
+}
+.cloth-container li{
+  padding-top: 30px;
+}
+.inform-container p{
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+  margin-top: 50px;
+}
+.inform-container h1{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+.v-container h2{
+  margin-top: 50px
+}
+.third-page-container{
+  display: flex;
+  width: 1024px;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.head-container h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+.head-container p{
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+  margin-top: 50px;
+}
+.caps-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.caps-container li{
+  padding-top: 20px;
+}
+.iv-container{
+  margin-top: 50px;
+}
+
+.video-container{
+  background: linear-gradient(#001011,  rgba(50, 50, 50, 0.50)), url("https://cdn.pixabay.com/photo/2017/04/27/08/29/sport-2264825_960_720.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5%
+}
