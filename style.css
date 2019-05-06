@@ -227,9 +227,12 @@ border-spacing: 0;
 }
 
 .video-container{
-  background: linear-gradient(#001011,  rgba(50, 50, 50, 0.50)), url("https://cdn.pixabay.com/photo/2017/04/27/08/29/sport-2264825_960_720.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2017/04/27/08/29/sport-2264825_960_720.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
   margin-top: 5%
+}
+.img-container{
+   width:100px;
 }
