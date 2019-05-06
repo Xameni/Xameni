@@ -236,3 +236,8 @@ border-spacing: 0;
 .img-container{
    width:50px;
 }
+.img-container img{
+  width:480px;
+  height:500px;
+  margin-top:20px;
+}
