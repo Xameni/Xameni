@@ -230,4 +230,35 @@ border-spacing: 0;
   height:500px;
   margin-top:10px;
 }
-#gym
+.new-container{
+  background-position: center;
+  background-image: linear-gradient(#001011, rgba(50, 50, 50, 0.50)), url(sport-1.jpg);
+  height: 350px;
+}
+.gym-container{
+  color:white;
+}
+.watch-container{
+  color: white;
+}
+.new-container{
+  text-align: center;
+
+}
+.gym-container h1{
+  margin-top: 120px;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+.watch-container h3{
+  text-transform: uppercase;
+
+}
+.new-container h4{
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.watch-container{
+  margin-top: 30px;
+}
+
